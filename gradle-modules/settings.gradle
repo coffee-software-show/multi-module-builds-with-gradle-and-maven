@@ -1,0 +1,3 @@
+rootProject.name = 'modules'
+include 'library'
+include 'app'

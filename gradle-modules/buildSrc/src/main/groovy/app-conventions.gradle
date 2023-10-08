@@ -1,0 +1,13 @@
+plugins {
+    id 'java-conventions'
+    id 'org.springframework.boot'
+}
+
+dependencies {
+    implementation project(path: ":library")
+    implementation 'org.springframework.boot:spring-boot-starter-json'
+    implementation 'org.postgresql:postgresql'
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation 'org.springframework.integration:spring-integration-amqp'
+}
+
